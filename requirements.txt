@@ -1,0 +1,28 @@
+# Core AI
+anthropic>=0.40.0
+mcp>=1.0.0
+
+# Data & APIs
+requests>=2.31.0
+httpx>=0.27.0
+yfinance>=0.2.40
+finnhub-python>=2.4.19
+edgartools>=2.20.0
+pandas>=2.2.0
+numpy>=1.26.0
+
+# Memory & Vector Store
+chromadb>=0.5.0
+
+# Database
+# sqlite3 is built-in — no install needed
+
+# Config & Env
+python-dotenv>=1.0.0
+
+# Dashboard (Phase 2)
+streamlit>=1.35.0
+
+# Utilities
+tenacity>=8.2.0       # retry logic for API calls
+rich>=13.7.0          # pretty CLI output

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "tc001",
+    "question": "What are Apple's key fundamental metrics?",
+    "expected_contains": ["P/E", "margin", "FMP"],
+    "category": "fundamentals"
+  },
+  {
+    "id": "tc002",
+    "question": "What is the recent news sentiment for Microsoft?",
+    "expected_contains": ["sentiment", "Finnhub", "headline"],
+    "category": "news"
+  },
+  {
+    "id": "tc003",
+    "question": "How has Nvidia beaten or missed earnings estimates in the last 4 quarters?",
+    "expected_contains": ["beat", "EPS", "quarter"],
+    "category": "earnings"
+  },
+  {
+    "id": "tc004",
+    "question": "Does Berkshire Hathaway hold any Apple stock?",
+    "expected_contains": ["Berkshire", "13F", "Apple"],
+    "category": "smart_money"
+  },
+  {
+    "id": "tc005",
+    "question": "What are the technical signals for Tesla right now?",
+    "expected_contains": ["RSI", "MACD", "MA50"],
+    "category": "technicals"
+  },
+  {
+    "id": "tc006",
+    "question": "Should I buy, hold, or sell Apple based on all available data?",
+    "expected_contains": ["score", "fundamentals", "Buy"],
+    "category": "decision"
+  }
+]

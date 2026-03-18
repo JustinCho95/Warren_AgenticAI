@@ -1,0 +1,22 @@
+# Environment & secrets
+.env
+
+# Virtual environment
+.venv/
+
+# Runtime data (created at runtime, not source code)
+data/warren.db
+data/chroma/
+data/sessions/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# VS internals
+.vs/
+
+# Evals output
+evals/eval_results.json
